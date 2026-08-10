@@ -192,9 +192,15 @@ st.markdown("""
     div[data-testid="stRadio"] label {
         padding: 8px 12px !important;
         font-size: 1rem !important;
+        color: #1E293B !important;
     }
     div[data-testid="stRadio"] label p {
         font-size: 1rem !important;
+        color: #1E293B !important;
+    }
+    /* Force contrast on the radio circle and its sibling text in all OS colour schemes */
+    div[data-testid="stRadio"] label span {
+        color: #1E293B !important;
     }
 
     /* Clean full-width feedback styling */
@@ -259,8 +265,10 @@ st.markdown("""
         div[data-testid="stRadio"] label {
             padding: 6px 8px !important;
             font-size: 0.9rem !important;
+            color: #1E293B !important;
         }
-        div[data-testid="stRadio"] label p { font-size: 0.9rem !important; }
+        div[data-testid="stRadio"] label p { font-size: 0.9rem !important; color: #1E293B !important; }
+        div[data-testid="stRadio"] label span { color: #1E293B !important; }
         div[data-testid="stNotification"] { padding: 12px 14px !important; }
     }
 
@@ -277,8 +285,9 @@ st.markdown("""
             font-size: 0.85rem !important;
         }
         .case-box { font-size: 0.88rem !important; padding: 10px 10px !important; }
-        div[data-testid="stRadio"] label { font-size: 0.85rem !important; }
-        div[data-testid="stRadio"] label p { font-size: 0.85rem !important; }
+        div[data-testid="stRadio"] label { font-size: 0.85rem !important; color: #1E293B !important; }
+        div[data-testid="stRadio"] label p { font-size: 0.85rem !important; color: #1E293B !important; }
+        div[data-testid="stRadio"] label span { color: #1E293B !important; }
         /* Prevent nowrap from causing overflow on tiny screens */
         div[data-testid="stButton"] button {
             white-space: normal !important;
