@@ -106,6 +106,14 @@ st.markdown("""
     /* App background and font */
     .stApp { background-color: #F1F5F9; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
 
+    /* Global high-contrast text — overrides dark mode inheritance */
+    h1, h2, h3, h4, h5, h6 { color: #0F172A !important; }
+    p, li, span, label { color: #1E293B !important; }
+    .stMarkdown, .stMarkdown p, .stMarkdown span,
+    .stMarkdown h1, .stMarkdown h2, .stMarkdown h3 { color: #1E293B !important; }
+    /* Streamlit metric and generic text containers */
+    div[data-testid="stText"], div[data-testid="stMarkdown"] { color: #1E293B !important; }
+
     /* Centre & limit width for easy reading */
     .block-container {
         padding-top: 2rem !important;
