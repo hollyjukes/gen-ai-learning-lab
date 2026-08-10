@@ -1,0 +1,697 @@
+[
+  {
+    "id": 1,
+    "category": "Google Cloud's Generative AI Offerings",
+    "question": "A business manager wants an AI assistant that behaves like a personalised research partner, answering questions and generating summaries strictly restricted to a small batch of custom files uploaded by the user for a specific presentation. Which Google tool is designed for this single ongoing chat application?",
+    "options": ["Vertex AI Search", "NotebookLM", "Gemini for Google Cloud", "Gemma"],
+    "correct": "NotebookLM",
+    "explanation": "NotebookLM acts as a personalised AI research partner that stays strictly grounded in the specific source materials uploaded by the user within that single ongoing chat layout."
+  },
+  {
+    "id": 2,
+    "category": "Google Cloud's Generative AI Offerings",
+    "question": "An organisation needs to build an AI driven, enterprise wide search platform across all of their internal company websites, apps, and vast data stores so both employees and customers can find information faster. Which Google solution fits this requirement?",
+    "options": ["NotebookLM", "Gems", "Vertex AI Search", "Gemini Advanced"],
+    "correct": "Vertex AI Search",
+    "explanation": "Vertex AI Search provides AI driven search capabilities for businesses built specifically on top of their own corporate data, internal websites, and applications."
+  },
+  {
+    "id": 3,
+    "category": "Google Cloud's Generative AI Offerings",
+    "question": "A retail company wants to launch a chatbot that interacts naturally using an LLM to provide a highly conversational feel to customers, rather than following rigid, predefined paths. What type of agent is this?",
+    "options": ["Deterministic Agent", "Generative Agent", "Traditional Agent", "Infrastructure Agent"],
+    "correct": "Generative Agent",
+    "explanation": "Generative agents are defined using natural language and leverage Large Language Models (LLMs) to provide an authentic, organic conversational feel compared to deterministic, predefined paths."
+  },
+  {
+    "id": 4,
+    "category": "Fundamentals of Generative AI",
+    "question": "A team of developers wants to customise and deploy a lightweight, open weights AI model locally on their own infrastructure for a highly specialized application. Which family of Google models should they choose?",
+    "options": ["Gemini", "Gemma", "Veo", "Imagen"],
+    "correct": "Gemma",
+    "explanation": "Gemma is Google's family of lightweight open models intended for developers, providing a customisable solution optimised for local deployments and specialized tasks."
+  },
+  {
+    "id": 5,
+    "category": "Google Cloud's Generative AI Offerings",
+    "question": "An executive wants to automate repetitive operations where complex requests require a highly structured, consistent document format every single time without retyping the instructions. Which Gemini feature solves this?",
+    "options": ["Prompt Chaining", "Gems", "Zero shot Prompting", "Unsupervised Learning"],
+    "correct": "Gems",
+    "explanation": "Gems are personalised AI assistants within Gemini used for complex, repeated requests. They eliminate the need to retype instructions and streamline repetitive tasks that require structured outputs."
+  },
+  {
+    "id": 6,
+    "category": "Fundamentals of Generative AI",
+    "question": "During which phase of the core Machine Learning (ML) Lifecycle is BigQuery explicitly used to clean, transform, and label ingested raw data to make it usable for model preparation?",
+    "options": ["Data Ingestion", "Data Preparation", "Model Training", "Model Management"],
+    "correct": "Data Preparation",
+    "explanation": "Data Preparation involves cleaning, transforming, and labeling data to make it usable, and BigQuery is the designated tool for this step in the ML Lifecycle."
+  },
+  {
+    "id": 7,
+    "category": "Google Cloud's Generative AI Offerings",
+    "question": "A support team wants an AI system that transcribes calls, translates languages in real time, and provides live coaching to human customer service representatives in the moment. Which component of the Google Customer Engagement Suite provides this?",
+    "options": ["Conversational Agents", "Contact Centre as a Service (CCaaS)", "Agent Assist", "Conversational Insights"],
+    "correct": "Agent Assist",
+    "explanation": "Agent Assist specifically supports live human contact centre agents in the moment by providing real time coaching, call transcription, and translation."
+  },
+  {
+    "id": 8,
+    "category": "Techniques to Improve Gen AI Model Output",
+    "question": "A business leader is evaluating sampling parameters that influence an AI model's behaviour. They want to directly control the 'creativity' or randomness of the model's word choices during text generation. Which parameter should they adjust?",
+    "options": ["Token Count", "Output Length", "Temperature", "Safety Settings"],
+    "correct": "Temperature",
+    "explanation": "Temperature is the specific sampling parameter that controls the 'creativity' or randomness of the model's token selections during generation."
+  },
+  {
+    "id": 9,
+    "category": "Fundamentals of Generative AI",
+    "question": "What structural layer of the core Generative AI landscape acts as the 'brain' of the system, consisting of complex mathematical algorithms trained on massive datasets to discover patterns and generate new content?",
+    "options": ["Infrastructure", "Model", "Platform", "Agent"],
+    "correct": "Model",
+    "explanation": "The Model layer represents the mathematical structures and complex algorithms trained on massive data volumes that serve as the fundamental brain of the AI system."
+  },
+  {
+    "id": 10,
+    "category": "Techniques to Improve Gen AI Model Output",
+    "question": "When an AI model produces highly confident outputs or text responses that are entirely inaccurate and completely ungrounded in real information, what is this limitation called?",
+    "options": ["Knowledge Cutoff", "Data Dependency", "Hallucination", "Edge Case"],
+    "correct": "Hallucination",
+    "explanation": "Hallucinations occur when an AI model produces outputs that are completely inaccurate or not based on real, verifiable information."
+  },
+  {
+    "id": 11,
+    "category": "Fundamentals of Generative AI",
+    "question": "An AI team is working with a machine learning approach where a model learns from unlabelled data to naturally find hidden groupings and patterns without annotations provided by humans, such as detecting system anomalies. Which learning approach is this?",
+    "options": ["Supervised learning", "Unsupervised learning", "Reinforcement learning", "Deterministic learning"],
+    "correct": "Unsupervised learning",
+    "explanation": "Unsupervised learning uses unlabelled data to discover natural groupings, structures, and patterns, making it highly effective for tasks like anomaly detection."
+  },
+  {
+    "id": 12,
+    "category": "Fundamentals of Generative AI",
+    "question": "A business team is categorizing their company assets. They have a collection of raw, unprocessed information that has not been annotated and lacks meaning by itself, such as unorganised photos or continuous streams of audio recordings. What type of data is this?",
+    "options": ["Structured data", "Labelled data", "Unlabelled data", "Ingested data"],
+    "correct": "Unlabelled data",
+    "explanation": "Unlabelled data consists of raw, unprocessed information that has not been annotated or tagged with meaning, such as unorganised photos or continuous audio streams."
+  },
+  {
+    "id": 13,
+    "category": "Fundamentals of Generative AI",
+    "question": "Which specific type of AI model architecture focuses on adding noise to images and then systematically reversing that process to generate clean content or remove noise?",
+    "options": ["Large Language Models (LLMs)", "Diffusion models", "Supervised models", "Deterministic models"],
+    "correct": "Diffusion models",
+    "explanation": "Diffusion models operate by adding noise to images and then systematically reversing that process to remove noise or generate new visual content."
+  },
+  {
+    "id": 14,
+    "category": "Business Strategies / Responsible AI & Privacy",
+    "question": "An organisation is looking for a comprehensive guidelines framework provided by Google Cloud to help manage AI/ML model risks, protect applications from harm, and ensure security throughout the deployment lifecycle. What is this framework called?",
+    "options": ["Vertex AI MLOps", "Secure AI Framework (SAIF)", "Vertex Explainable AI", "Identity and Access Management (IAM)"],
+    "correct": "Secure AI Framework (SAIF)",
+    "explanation": "The Secure AI Framework (SAIF) is a comprehensive framework designed to help organisations manage AI/ML model risks and ensure security to protect applications from harm throughout their lifecycle."
+  },
+  {
+    "id": 15,
+    "category": "Business Strategies / Responsible AI & Privacy",
+    "question": "When developing a responsible AI strategy, a company wants to ensure that a user's sensitive information is fully protected to prevent models from leaking data. According to the core tenets, what technique is often used to achieve this privacy standard?",
+    "options": ["Supervised learning weights updates", "Anonymisation or pseudonymisation", "Prompt tuning vectors", "Automated model versioning"],
+    "correct": "Anonymisation or pseudonymisation",
+    "explanation": "A core tenet of data privacy involves fully protecting sensitive customer and operational information—frequently via anonymisation or pseudonymisation—to guarantee that models never leak restricted data."
+  },
+  {
+    "id": 16,
+    "category": "Fundamentals of Generative AI",
+    "question": "A data engineering team is setting up streaming data pipelines to collect raw data from various enterprise platforms using tools like PubSub, Cloud Spanner, Cloud SQL, and Cloud Storage. Which initial stage of the Machine Learning Lifecycle does this represent?",
+    "options": ["Data Ingestion", "Data Preparation", "Model Deployment", "Model Management"],
+    "correct": "Data Ingestion",
+    "explanation": "Data Ingestion is the first step of the Machine Learning Lifecycle where raw data is collected using infrastructure like PubSub, Cloud Spanner, Cloud SQL, and Cloud Storage."
+  },
+  {
+    "id": 17,
+    "category": "Techniques to Improve Gen AI Model Output",
+    "question": "A team wants to adapt a large foundation model to a brand new task. Instead of rewriting or retraining the entire baseline model architecture, they train only a specific set of learnable vectors that are added directly to the prompt. What technique is this?",
+    "options": ["Prompt Engineering", "Prompt Tuning", "Few shot Prompting", "Unsupervised Learning"],
+    "correct": "Prompt Tuning",
+    "explanation": "Prompt tuning is a technique that adapts LLMs to new tasks by training only a specific set of learnable vectors added to the prompt, rather than changing the core model parameters."
+  },
+  {
+    "id": 18,
+    "category": "Fundamentals of Generative AI",
+    "question": "An AI system is being engineered for an advanced gaming application where it must learn to navigate complex environments through repeated trial and error, receiving rewards for correct actions or penalties for mistakes. Which machine learning approach is this?",
+    "options": ["Supervised learning", "Unsupervised learning", "Reinforcement learning", "Deterministic routing"],
+    "correct": "Reinforcement learning",
+    "explanation": "Reinforcement learning relies on a system of trial and error where an agent learns to maximise its success based on feedback loops consisting of rewards and penalties."
+  },
+  {
+    "id": 19,
+    "category": "Google Cloud's Generative AI Offerings",
+    "question": "When designing a generative AI agent, which core component serves as the 'tools' layer, enabling the autonomous agent to interact with the outside world via APIs and process external data store information?",
+    "options": ["Reasoning Loop", "Tools", "Model", "Infrastructure"],
+    "correct": "Tools",
+    "explanation": "The 'Tools' component of an agent framework consists of the functionalities and APIs that allow the goal oriented software to interact directly with outside environments and data layers."
+  },
+  {
+    "id": 20,
+    "category": "Fundamentals of Generative AI",
+    "question": "A company is analysing its financial databases and transaction logs. This data is explicitly organised into neat rows and columns, making it incredibly easy to search and analyse using standard relational database systems. What type of data is this?",
+    "options": ["Unstructured data", "Structured data", "Unlabelled data", "Multimodal data"],
+    "correct": "Structured data",
+    "explanation": "Structured data is defined by its preorganised format, typically stored in rows and columns within relational databases, allowing for simple search and analysis."
+  },
+  {
+    "id": 21,
+    "category": "Fundamentals of Generative AI",
+    "question": "An AI team has successfully trained their new machine learning model and now needs to make the finalized model available for active enterprise use across the organisation. What specific stage of the ML Lifecycle are they performing?",
+    "options": ["Data Preparation", "Model Training", "Model Deployment", "Model Management"],
+    "correct": "Model Deployment",
+    "explanation": "Model Deployment is explicitly defined as the specific process of making a trained machine learning model available for operational use."
+  },
+  {
+    "id": 22,
+    "category": "Fundamentals of Generative AI",
+    "question": "A cloud team is continuously tracking performance metrics, tracking versions, and maintaining an operational machine learning model over time using Vertex AI. Which stage of the ML Lifecycle covers this long term upkeep?",
+    "options": ["Data Preparation", "Model Training", "Model Deployment", "Model Management"],
+    "correct": "Model Management",
+    "explanation": "Model Management is defined as the process of monitoring, versioning, and maintaining the model over time using platform tools like Vertex AI."
+  },
+  {
+    "id": 23,
+    "category": "Fundamentals of Generative AI",
+    "question": "A business analyst needs an AI solution capable of interpreting human communication, extracting meaning from unstructured text, and enabling a machine to communicate natively using human language. What specific field does this fall under?",
+    "options": ["Diffusion modelling", "Natural language processing", "Reinforcement learning", "Deterministic routing"],
+    "correct": "Natural language processing",
+    "explanation": "Natural language processing is the specific domain focused on enabling machines to communicate and derive meaning from human language."
+  },
+  {
+    "id": 24,
+    "category": "Techniques to Improve Gen AI Model Output",
+    "question": "A marketing manager wants to refine the way they interact with a large language model. They focus on the art and science of intentionally designing, writing, and refining text inputs to guide the AI model to maximise its value. What is this practice called?",
+    "options": ["Prompt Tuning", "Prompt Engineering", "Unsupervised Learning", "Model Versioning"],
+    "correct": "Prompt Engineering",
+    "explanation": "Prompt engineering is the art and science of creating and refining effective inputs (prompts) for generative AI models to maximise value and tailor responses."
+  },
+  {
+    "id": 25,
+    "category": "Google Cloud's Generative AI Offerings",
+    "question": "A production house wants to leverage an advanced generative AI model that is capable of generating high quality, realistic video content natively based on short textual descriptions or still images. Which Google offering should they use?",
+    "options": ["Imagen", "Veo", "Gemma", "Vertex AI Search"],
+    "correct": "Veo",
+    "explanation": "Veo is Google's generative model capable of producing video content based entirely on textual descriptions or still images."
+  },
+  {
+    "id": 26,
+    "category": "Fundamentals of Generative AI",
+    "question": "A data engineering team needs to process an enormous archive of scanned invoice images, handwritten customer feedback forms, and video files. What classification best describes this type of information?",
+    "options": ["Structured data", "Unstructured data", "Relational data", "Tabular data"],
+    "correct": "Unstructured data",
+    "explanation": "Unstructured data includes content that lacks a predefined conceptual framework or data model, such as audio, video, handwritten files, and scanned invoice images."
+  },
+  {
+    "id": 27,
+    "category": "Techniques to Improve Gen AI Model Output",
+    "question": "A business analyst types a complex prompt into an LLM and explicitly instructs the model by saying: 'Let's think step by step to solve this logic problem.' Which prompting technique is being utilized here?",
+    "options": ["Zero shot Prompting", "Few shot Prompting", "Chain of Thought Prompting", "Role Prompting"],
+    "correct": "Chain of Thought Prompting",
+    "explanation": "Chain of Thought prompting guides the model to break down complex problems and output its reasoning pathways incrementally by using phrases like 'let's think step by step.'"
+  },
+  {
+    "id": 28,
+    "category": "Techniques to Improve Gen AI Model Output",
+    "question": "A business team wants to evaluate a foundation model's parameters to control the randomness and predictability of response outputs. They need the model to select only from a highly restricted pool of the most probable next words. Which core parameter directly dictates this behaviour?",
+    "options": ["Temperature", "Token Count", "Context Window", "Safety Threshold"],
+    "correct": "Temperature",
+    "explanation": "Temperature is the core sampling parameter evaluated by business leaders to manage model output creativity, where lower values result in highly predictable and conservative word selections."
+  },
+  {
+    "id": 29,
+    "category": "Fundamentals of Generative AI",
+    "question": "An enterprise organisation is deciding how to manage data costs and processing limits for their AI projects. They need to choose a model based on the maximum amount of input text it can ingest and reason across in a single interaction. What characteristic are they evaluating?",
+    "options": ["Context Window", "Data Modality", "Fine tuning Weights", "Deterministic Routing"],
+    "correct": "Context Window",
+    "explanation": "The context window defines the maximum volume of input text data a foundation model can ingest, read, and reason across simultaneously during a single processing request."
+  },
+  {
+    "id": 30,
+    "category": "Google Cloud's Generative AI Offerings",
+    "question": "An operations team wants to implement a Generative AI solution capable of handling complex, multi step corporate workflows, such as reading arriving digital invoices, extracting core fields, and instantly updating their internal ERP systems. Which high level capability bucket does this represent?",
+    "options": ["Create", "Summarise", "Discover", "Automate"],
+    "correct": "Automate",
+    "explanation": "According to the five core capability buckets of Generative AI, 'Automate' is defined as leveraging AI to orchestrate and handle multi step workflows, such as parsing invoices to update enterprise ERP records."
+  },
+  {
+    "id": 31,
+    "category": "Google Cloud's Generative AI Offerings",
+    "question": "A customer experience manager wants to deploy a fully automated chatbot system that leverages pre built RAG architectures, handles complex user workflows, and connects instantly to Google Search grounding. Which platform component provides this agent creation environment?",
+    "options": ["Model Garden", "Vertex AI Agent Builder", "BigQuery ML", "NotebookLM"],
+    "correct": "Vertex AI Agent Builder",
+    "explanation": "Vertex AI Agent Builder enables organisations to rapidly design, deploy, and ground production ready conversational agents using pre configured search and enterprise framework tools."
+  },
+  {
+    "id": 32,
+    "category": "Business Strategies / Responsible AI & Privacy",
+    "question": "A financial company adopting Google Cloud's enterprise AI platform needs to ensure they retain complete ownership, privacy controls, and security governance over their training data. Which statement correctly describes Google Cloud's data governance promise?",
+    "options": [
+      "Customer data is automatically used to improve public foundational weights.",
+      "Customer data is encrypted and never used to train Google's public models.",
+      "Data governance is handled exclusively through open source weights.",
+      "Data paths must traverse the public internet before undergoing tokenization."
+    ],
+    "correct": "Customer data is encrypted and never used to train Google's public models.",
+    "explanation": "A foundational enterprise pillar of Google Cloud's AI platform is that customer data remains strictly private, is secure under IAM governance, and is never used to train or improve public baseline models."
+  },
+  {
+    "id": 33,
+    "category": "Fundamentals of Generative AI",
+    "question": "A strategy group is auditing their company's internal data warehouse. They notice that the records contain highly structured financial logs organised completely into clear rows and columns that are instantly searchable via SQL. What data format is this?",
+    "options": ["Unstructured data", "Structured data", "Unlabelled data", "Multimodal data"],
+    "correct": "Structured data",
+    "explanation": "Structured data is data that resides within a fixed, highly organised format—frequently within tables, rows, and columns—making it simple to query using relational database mechanisms."
+  },
+  {
+    "id": 34,
+    "category": "Google Cloud's Generative AI Offerings",
+    "question": "An operations lead needs an AI architecture capable of taking automated customer phone calls, converting the continuous audio streams natively into text strings, and providing real time language translation. Which group of managed services satisfies this workflow?",
+    "options": ["Speech to Text and Translation APIs", "Document AI and Vision API", "Vertex AI Search and Gemma", "Looker Studio and BigQuery ML"],
+    "correct": "Speech to Text and Translation APIs",
+    "explanation": "Google Cloud's Speech to Text and Translation APIs provide immediate, out of the box managed processing for voice conversion and multilingual processing."
+  },
+  {
+    "id": 35,
+    "category": "Business Strategies / Responsible AI & Privacy",
+    "question": "A banking institution is implementing Google's Secure AI Framework (SAIF). They are actively creating automated test simulations to systematically evaluate how their deployed LLM handles input injection attacks. Which core pillar of the SAIF framework does this operational action align with?",
+    "options": ["Expand threat detection", "Automate defences", "Foster a culture of shared security", "Harmonise controls"],
+    "correct": "Automate defences",
+    "explanation": "Automating defences within the Secure AI Framework (SAIF) focuses on building automated safety nets and continuous validation steps to catch risks like prompt injection."
+  },
+  {
+    "id": 36,
+    "category": "Techniques to Improve Gen AI Model Output",
+    "question": "A developer presents an LLM with a prompt that includes three complete examples of input questions alongside their perfect target output answers before asking the model to process a fourth unique query. What prompting method is this?",
+    "options": ["Zero shot Prompting", "Few shot Prompting", "Chain of Thought Prompting", "Role Prompting"],
+    "correct": "Few shot Prompting",
+    "explanation": "Few shot prompting provides an LLM with a few illustrative examples of the desired task execution directly within the context window to guide its subsequent behaviour."
+  },
+  {
+    "id": 37,
+    "category": "Techniques to Improve Gen AI Model Output",
+    "question": "A marketing manager opens a foundation model interface and provides a raw description of a product, immediately asking the AI to write a press release without giving any operational examples or pre formatted text blocks. What technique is this?",
+    "options": ["Zero shot Prompting", "Few shot Prompting", "Prompt Tuning", "Supervised Fine Tuning"],
+    "correct": "Zero shot Prompting",
+    "explanation": "Zero shot prompting relies completely on the foundation model's pre trained data patterns to execute a task immediately from instructions alone, providing no explicit examples."
+  },
+  {
+    "id": 38,
+    "category": "Google Cloud's Generative AI Offerings",
+    "question": "A healthcare startup wants to search for an external, third party foundation model that is already optimised for medical terminology, review its licensing terms, and immediately click to deploy it into their enterprise sandboxes. What consolidated hub inside Vertex AI should they open?",
+    "options": ["Vertex AI Model Registry", "Model Garden", "NotebookLM", "Vertex AI Studio"],
+    "correct": "Model Garden",
+    "explanation": "Model Garden acts as the enterprise wide repository inside Vertex AI where users can discover, test, and deploy Google, open source, and third party foundation models."
+  },
+  {
+    "id": 39,
+    "category": "Fundamentals of Generative AI",
+    "question": "What core characteristic separates a multimodal foundation model from a traditional large language model?",
+    "options": ["It requires specialized prompt tuning vectors.", "It can process and generate text, images, and audio simultaneously.", "It operates strictly on structured relational data files.", "It uses a completely deterministic routing protocol."],
+    "correct": "It can process and generate text, images, and audio simultaneously.",
+    "explanation": "Multimodal AI architectures are engineered to ingest, process, reason across, and generate multiple distinct data modalities (text, visuals, audio) within a single unified pipeline."
+  },
+  {
+    "id": 40,
+    "category": "Google Cloud's Generative AI Offerings",
+    "question": "A content production company wants to generate high resolution, stylized marketing artwork and logos from text prompts using a managed Google API. Which foundation model handles this specific image creation requirement?",
+    "options": ["Gemini", "Imagen", "Veo", "Gemma"],
+    "correct": "Imagen",
+    "explanation": "Imagen is Google Cloud's premier foundational text to image model, optimised for generating high quality studio graphics, editing pictures, and rendering realistic visual designs."
+  },
+  {
+    "id": 41,
+    "category": "Fundamentals of Generative AI",
+    "question": "A product team is evaluating how a foundation model behaves. They note that the system uses a specific core machine learning framework that processes input tokens in parallel and dynamically calculates relationships between words using self attention mechanisms. What architectural breakthrough is this?",
+    "options": ["Transformer architecture", "Diffusion modelling", "Deterministic routing", "Linear regression scaling"],
+    "correct": "Transformer architecture",
+    "explanation": "The Transformer architecture relies heavily on self attention mechanisms to process tokens in parallel, enabling the scaling of large language models."
+  },
+  {
+    "id": 42,
+    "category": "Techniques to Improve Gen AI Model Output",
+    "question": "An enterprise wants to completely eliminate model hallucinations when answering internal HR questions by forcing the foundation model to check its responses against verified company handbooks before returning answers. What method achieves this grounding?",
+    "options": ["Increasing Top k sampling values", "Retrieval Augmented Generation (RAG)", "Unsupervised feature extraction", "Prompt tuning vector updates"],
+    "correct": "Retrieval Augmented Generation (RAG)",
+    "explanation": "Retrieval Augmented Generation (RAG) grounds model generations directly by querying external document databases first and passing the accurate facts into the context window."
+  },
+  {
+    "id": 43,
+    "category": "Business Strategies / Responsible AI & Privacy",
+    "question": "A financial enterprise is establishing corporate rules for AI usage. They mandate that any automatically generated credit evaluation decision must be explainable, understandable, and auditable by external regulatory compliance teams. Which principle does this target?",
+    "options": ["Model acceleration", "Transparency", "Creativity parameters", "Data tokenization"],
+    "correct": "Transparency",
+    "explanation": "The transparency principle in responsible AI ensures that automated decisions, system flows, and model logic are audit ready, transparent, and completely clear to stakeholders."
+  },
+  {
+    "id": 44,
+    "category": "Techniques to Improve Gen AI Model Output",
+    "question": "A copywriter wants to instruct an LLM to rewrite a marketing email. Within the prompt context, they explicitly inject the phrase: 'Act as a seasoned executive communications consultant with 20 years of crisis management experience.' What prompting method is this?",
+    "options": ["Few shot Prompting", "Role Prompting", "Chain of Thought Prompting", "Zero shot Prompting"],
+    "correct": "Role Prompting",
+    "explanation": "Role prompting instructs the LLM to adopt a specific persona, mindset, or professional background within the text string to tailor the tone and style of the output."
+  },
+  {
+    "id": 45,
+    "category": "Google Cloud's Generative AI Offerings",
+    "question": "An enterprise organisation wants to infuse AI assistance throughout their entire cloud ecosystem to help operational teams manage cloud infrastructure, optimise code pipelines, and troubleshoot system anomalies. Which comprehensive Google offering provides this ecosystem wide integration?",
+    "options": ["Gemini for Google Cloud", "NotebookLM", "Gemma open models", "Vertex AI Search"],
+    "correct": "Gemini for Google Cloud",
+    "explanation": "Gemini for Google Cloud represents the comprehensive, integrated AI assistant designed to help teams build, manage, optimise, and secure applications across the Google Cloud platform."
+  },
+  {
+    "id": 46,
+    "category": "Business Strategies / Responsible AI & Privacy",
+    "question": "A healthcare provider wants to implement an internal generative AI assistant to help doctors summarise patient charts. To comply with strict regulatory frameworks, what step must they take to ensure patient confidentiality before processing the records?",
+    "options": [
+      "Increase the model's temperature parameter to mask information.",
+      "Anonymise or mask all personally identifiable information (PII) from the data.",
+      "Deploy the application using an unencrypted, open weights architecture.",
+      "Utilize zero shot prompting to automatically bypass data governance rules."
+    ],
+    "correct": "Anonymise or mask all personally identifiable information (PII) from the data.",
+    "explanation": "To protect data privacy and meet regulatory compliance, sensitive patient information must be completely anonymised or masked before being passed into an AI model ecosystem."
+  },
+  {
+    "id": 47,
+    "category": "Business Strategies / Responsible AI & Privacy",
+    "question": "When building an AI solution under Google Cloud's shared responsibility model, which security responsibility falls entirely on the customer enterprise rather than Google?",
+    "options": [
+      "Securing the physical data centres hosting the TPUs and GPUs.",
+      "Enforcing internal IAM permissions and monitoring user access to the application.",
+      "Patching the host operating system of the baseline foundational models.",
+      "Maintaining the physical network infrastructure inside the cloud perimeter."
+    ],
+    "correct": "Enforcing internal IAM permissions and monitoring user access to the application.",
+    "explanation": "Under the shared responsibility model, Google secures the underlying cloud infrastructure and foundational model deployments, while the customer is responsible for managing their data, access controls, and application IAM permissions."
+  },
+  {
+    "id": 48,
+    "category": "Business Strategies / Responsible AI & Privacy",
+    "question": "An insurance company's automated AI claims processor is accidentally rejecting claims from a specific demographic at a disproportionately high rate due to historical skews in the training data. Which core responsible AI challenge does this highlight?",
+    "options": ["Model Hallucination", "Data Bias", "Context Window Exhaustion", "Deterministic Error"],
+    "correct": "Data Bias",
+    "explanation": "Data bias occurs when historical prejudice, skews, or unrepresentative samples in the training dataset cause the AI model to output systematic, unfair preferences or rejections."
+  },
+  {
+    "id": 49,
+    "category": "Business Strategies / Responsible AI & Privacy",
+    "question": "An enterprise is reviewing Google's Secure AI Framework (SAIF). They want to ensure that as new AI threats and vulnerabilities evolve, their operational teams have updated playbooks and incident response strategies tailored specifically for machine learning risks. Which SAIF pillar covers this?",
+    "options": [
+      "Expand threat detection and response",
+      "Automate defences to neutralize attacks",
+      "Harmonise platform security controls",
+      "Streamline model version infrastructure"
+    ],
+    "correct": "Expand threat detection and response",
+    "explanation": "The 'Expand threat detection and response' pillar of SAIF focuses on adapting security operations to monitor, detect, and respond to unique AI specific threats and evolving vulnerabilities."
+  },
+  {
+    "id": 50,
+    "category": "Techniques to Improve Gen AI Model Output",
+    "question": "A real estate company wants an LLM to generate property descriptions based strictly on local MLS database listings. They want to ensure the model absolutely refuses to answer if it cannot find the property in the database. Which methodology is best for enforcing this boundary?",
+    "options": [
+      "Maximising the temperature settings for higher creativity.",
+      "Implementing RAG alongside explicit system prompting instructions to restrict out of bounds answers.",
+      "Transitioning the entire pipeline to a local, open weights Gemma model.",
+      "Using zero shot prompting without an external data store connection."
+    ],
+    "correct": "Implementing RAG alongside explicit system prompting instructions to restrict out of bounds answers.",
+    "explanation": "Combining Retrieval Augmented Generation (RAG) with clear grounding instructions in the system prompt forces the model to restrict its answers exclusively to the provided data and prevent ungrounded outputs."
+  },
+  {
+    "id": 51,
+    "category": "Techniques to Improve Gen AI Model Output",
+    "question": "A business leader needs to understand the trade offs of Fine Tuning a model versus using Retrieval Augmented Generation (RAG). Which scenario represents a correct business justification for choosing Fine Tuning over RAG?",
+    "options": [
+      "The business needs the model to access hourly changing product inventory numbers.",
+      "The business needs the model to internalize a deeply specialized corporate formatting style and industry tone across millions of historical files.",
+      "The business needs to eliminate all upfront training and infrastructure compute costs.",
+      "The business needs an instant, out of the box solution that requires zero data preparation."
+    ],
+    "correct": "The business needs the model to internalize a deeply specialized corporate formatting style and industry tone across millions of historical files.",
+    "explanation": "Fine tuning updates the internal weights of a model, making it ideal for deeply customising style, tone, or specific behavioural guidelines, whereas RAG is preferred for connecting models to dynamic, real time factual data sources."
+  },
+  {
+    "id": 52,
+    "category": "Techniques to Improve Gen AI Model Output",
+    "question": "A customer support director notices that the company chatbot often drifts off topic during long conversations, forgetting the original user problem mentioned at the beginning of the chat. To resolve this without retraining, what model characteristic should they look to increase?",
+    "options": ["Context Window", "Temperature", "Deterministic Routing", "Token Weighting"],
+    "correct": "Context Window",
+    "explanation": "A larger context window increases the amount of conversation history a model can hold in its immediate memory at one time, preventing it from forgetting early details during long, multi turn dialogues."
+  },
+  {
+    "id": 53,
+    "category": "Business Strategies / Responsible AI & Privacy",
+    "question": "A public sector organisation wants to deploy an AI system to assist with processing housing applications. To maintain public trust and comply with responsible governance, they want to ensure citizens can easily understand why an AI system flagged an application for review. Which core principle is this?",
+    "options": ["Model Optimisation", "Transparency", "Data Ingestion", "Deterministic Accuracy"],
+    "correct": "Transparency",
+    "explanation": "Transparency ensures that the automated mechanisms, decision making criteria, and logic used by AI systems are explainable and auditable by human operators and stakeholders."
+  },
+  {
+    "id": 54,
+    "category": "Fundamentals of Generative AI",
+    "question": "A corporate training group is evaluating foundation models. They want to know the primary reason why a 'foundation model' differs from a traditional, narrow machine learning model. What is the defining difference?",
+    "options": [
+      "Foundation models are trained on small, highly curated tables of structured data.",
+      "Foundation models are pre trained on massive, broad datasets and can be adapted to a wide variety of downstream business tasks.",
+      "Foundation models operate strictly using hardcoded, deterministic mathematical rules.",
+      "Foundation models cannot process text inputs without an active API connection to BigQuery."
+    ],
+    "correct": "Foundation models are pre trained on massive, broad datasets and can be adapted to a wide variety of downstream business tasks.",
+    "explanation": "Unlike traditional ML models built for a single narrow task (like predicting a house price), foundation models are trained on vast datasets, allowing them to generalise and adapt across entirely different enterprise use cases."
+  },
+  {
+    "id": 55,
+    "category": "Google Cloud's Generative AI Offerings",
+    "question": "A global enterprise wants to evaluate and run open source, custom, and third party foundation models side by side with Google's native Gemini models within a secure, managed environment. Which specific Vertex AI capability should they access?",
+    "options": ["Vertex AI Model Garden", "NotebookLM", "Gemini Advanced", "BigQuery Studio"],
+    "correct": "Vertex AI Model Garden",
+    "explanation": "Vertex AI Model Garden is the centralised enterprise environment within Google Cloud that allows businesses to discover, test, and deploy a wide catalog of Google, open source, and third party foundational models."
+  },
+  {
+    "id": 56,
+    "category": "Google Cloud's Generative AI Offerings",
+    "question": "A retail organisation wants to deploy an AI driven search solution across their corporate intranet websites and digital asset catalogs so employees can query internal company data using natural language. Which turnkey Vertex AI solution is purpose built for this business need?",
+    "options": ["Vertex AI Search", "NotebookLM", "Gemma open models", "BigQuery ML"],
+    "correct": "Vertex AI Search",
+    "explanation": "Vertex AI Search provides a turnkey, AI driven search and recommendation solution designed to help businesses ground Gemini powered queries directly in their own custom enterprise data, documents, and websites."
+  },
+  {
+    "id": 57,
+    "category": "Google Cloud's Generative AI Offerings",
+    "question": "An operations manager at a global call centre wants to deploy a solution that sits alongside live human customer support representatives, providing them with real time coaching, immediate language translations, and automated call transcription. Which tool within the Google Customer Engagement Suite provides this feature?",
+    "options": ["Conversational Agents", "Agent Assist", "Conversational Insights", "Vertex AI Studio"],
+    "correct": "Agent Assist",
+    "explanation": "Within the Google Customer Engagement Suite, Agent Assist is specifically engineered to support live human contact centre agents in the moment by delivering real time coaching, instant translations, and continuous call transcription."
+  },
+  {
+    "id": 58,
+    "category": "Google Cloud's Generative AI Offerings",
+    "question": "A product team needs to monitor an enterprise grade machine learning model after it has been deployed to production. They want to set up automated alerts to watch for drops in accuracy and track performance changes over time. Which Vertex AI tooling subcategory handles this part of the lifecycle?",
+    "options": ["Vertex AI Studio prototyping", "Vertex AI Model Garden catalog", "Vertex AI MLOps tools", "Lite Runtime (LiteRT) frameworks"],
+    "correct": "Vertex AI MLOps tools",
+    "explanation": "Vertex AI MLOps tools (such as Model Monitoring) streamline the post deployment lifecycle, allowing AI teams to collaborate, track performance metrics, and set up drift monitoring to watch for accuracy shifts over time."
+  },
+  {
+    "id": 59,
+    "category": "Google Cloud's Generative AI Offerings",
+    "question": "An executive assistant wants a secure, isolated sandbox environment where they can upload specific private PDF brief files, text documents, and slide notes to generate automated study guides and presentations based *exclusively* on those provided source materials. Which specialized Google tool satisfies this workflow?",
+    "options": ["Gemini Advanced", "Vertex AI Search", "NotebookLM", "Gemini Code Assist"],
+    "correct": "NotebookLM",
+    "explanation": "NotebookLM serves as a personalised AI research partner that works as a closed loop system, allowing users to upload specific source materials and interact with an ongoing chat that pulls insights strictly from the uploaded content."
+  },
+  {
+    "id": 60,
+    "category": "Google Cloud's Generative AI Offerings",
+    "question": "A development team wants to evaluate whether a proposed AI initiative requires Google AI Studio or Vertex AI Studio. Which business scenario represents a correct justification for selecting Vertex AI Studio over Google AI Studio?",
+    "options": [
+      "The developer needs a free environment for quick prompt prototyping and basic API experimentation.",
+      "The enterprise needs to enforce strict cloud billing guardrails, manage IAM security access policies, and deploy production ready applications at scale.",
+      "The engineering team needs to run highly efficient, compact foundational models locally on mobile edge hardware.",
+      "The user needs an out of the box productivity app integrated directly into their Google Docs and Gmail workflows."
+    ],
+    "correct": "The enterprise needs to enforce strict cloud billing guardrails, manage IAM security access policies, and deploy production ready applications at scale.",
+    "explanation": "While Google AI Studio is provided free of charge for rapid prototyping and quick experimentation, Vertex AI Studio is the enterprise grade unified platform required for managing production security governance, IAM policies, and large scale deployments."
+  },
+  {
+    "id": 61,
+    "category": "Business Strategies / Responsible AI & Privacy",
+    "question": "A global enterprise wants to scale its Gen AI projects. They decide to combine a 'top down' approach with a 'bottom up' approach. According to the strategic framework, what does the 'bottom up' portion specifically contribute?",
+    "options": [
+      "Leadership setting the high level corporate vision, compliance mandates, and funding.",
+      "Employees identifying practical, everyday applications and providing organic feedback.",
+      "Enforcing strict open weights infrastructure parameters across local edge nodes.",
+      "Bypassing data governance layers to accelerate rapid front end prototyping."
+    ],
+    "correct": "Employees identifying practical, everyday applications and providing organic feedback.",
+    "explanation": "A successful Gen AI strategy balances a top down approach (leadership setting the vision) with a bottom up approach, where employees organically identify practical applications and provide real world feedback."
+  },
+  {
+    "id": 62,
+    "category": "Business Strategies / Responsible AI & Privacy",
+    "question": "An IT team is deploying an AI system and wants to prioritise their implementations effectively. They need to choose use cases that deliver clear, measurable business value rather than just testing technology for its own sake. Which strategic pillar does this address?",
+    "options": ["Exploration", "Strategic focus", "Resourcing", "Continuous improvement"],
+    "correct": "Strategic focus",
+    "explanation": "Strategic focus means prioritising focused generative AI implementations that target clear business value and demonstrate tangible advantages rather than running unfocused experiments."
+  },
+  {
+    "id": 63,
+    "category": "Business Strategies / Responsible AI & Privacy",
+    "question": "A company wants to build out its long term Gen AI capabilities. Instead of just buying off the shelf SaaS apps, they plan to invest heavily in their corporate data strategy, leverage current infrastructure, and actively develop internal AI talent. Which strategic pillar are they executing?",
+    "options": ["Strategic focus", "Resourcing", "Impact", "Exploration"],
+    "correct": "Resourcing",
+    "explanation": "The 'Resourcing' strategic pillar dictates that companies must invest in their underlying data strategy, maximise their existing resource footprint, and deliberately develop internal AI technical talent."
+  },
+  {
+    "id": 64,
+    "category": "Business Strategies / Responsible AI & Privacy",
+    "question": "A media firm has deployed a Gen AI marketing assistant. To keep the solution effective over time, the project team establishes a loop to constantly refine prompt templates, adjust baseline parameters, and update context data based on user feedback. What strategic pillar does this represent?",
+    "options": ["Strategic focus", "Resourcing", "Continuous improvement", "Exploration"],
+    "correct": "Continuous improvement",
+    "explanation": "Continuous improvement focuses on iteratively refining generative AI solutions over time by incorporating ongoing performance data and user feedback loops."
+  },
+  {
+    "id": 65,
+    "category": "Google Cloud's Generative AI Offerings",
+    "question": "A manufacturing enterprise needs an AI powered agent to manage custom multi step logistics pipelines. They want the chatbot to maintain a conversational feel but seamlessly follow hardcoded routing logic for critical compliance steps. What type of agent architecture should they build?",
+    "options": ["Deterministic Agent", "Generative Agent", "Hybrid Agent", "Edge Agent"],
+    "correct": "Hybrid Agent",
+    "explanation": "Hybrid agents combine deterministic (rule based) and generative (LLM driven) capabilities, making them incredibly powerful for workflows that require both strict guardrails and natural communication."
+  },
+  {
+    "id": 66,
+    "category": "Google Cloud's Generative AI Offerings",
+    "question": "An enterprise developer needs to implement a custom workflow agent. They are defining the core architectural components. They want to provide the agent with a dedicated 'Reasoning Loop'. What is the purpose of this component?",
+    "options": [
+      "It acts as a hardcoded lookup table to guarantee zero latency response paths.",
+      "It is an iterative process where the agent observes, interprets, reasons, and acts to achieve a goal.",
+      "It stores the physical hardware instructions used to accelerate GPU cluster nodes.",
+      "It completely replaces the underlying foundation model to eliminate token consumption costs."
+    ],
+    "correct": "It is an iterative process where the agent observes, interprets, reasons, and acts to achieve a goal.",
+    "explanation": "The reasoning loop is an iterative process within an AI agent that allows it to continuously observe its environment, interpret input, reason through alternatives, and take actions using tools until a goal is met."
+  },
+  {
+    "id": 67,
+    "category": "Google Cloud's Generative AI Offerings",
+    "question": "When configuring an intelligent agent workspace, an engineer integrates external service APIs so the agent can look up flight databases and process customer refunds. Within the platform framework, what are these external connections called?",
+    "options": ["Reasoning Loops", "Tools", "Models", "Context Windows"],
+    "correct": "Tools",
+    "explanation": "Tools are the individual functionalities and API configurations that allow an AI agent to interact with its external environment, data stores, and third party applications."
+  },
+  {
+    "id": 68,
+    "category": "Fundamentals of Generative AI",
+    "question": "A data scientist is explaining the difference between Deep Learning and standard Machine Learning to business executives. What is the defining characteristic of Deep Learning?",
+    "options": [
+      "It relies exclusively on structured row and column SQL tables for data processing.",
+      "It is a subset of ML that uses multi layered artificial neural networks to extract complex patterns from data.",
+      "It is a deterministic architecture that entirely avoids probabilistic calculations.",
+      "It is an open source framework built specifically to run locally on mobile hardware edge devices."
+    ],
+    "correct": "It is a subset of ML that uses multi layered artificial neural networks to extract complex patterns from data.",
+    "explanation": "Deep learning is a specific subset of machine learning that utilizes multi layered artificial neural networks to identify and extract complex patterns from massive unstructured datasets."
+  },
+  {
+    "id": 69,
+    "category": "Fundamentals of Generative AI",
+    "question": "A product manager is evaluating different machine learning approaches. They need a model to discover natural clusters, groupings, and hidden structures in a massive bucket of raw, unlabelled customer feedback images. What learning approach fits this scenario?",
+    "options": ["Supervised learning", "Unsupervised learning", "Reinforcement learning", "Deterministic routing"],
+    "correct": "Unsupervised learning",
+    "explanation": "Unsupervised learning operates entirely on unlabelled data to uncover natural groupings, patterns, structures, and anomalies without predefined human guidance."
+  },
+  {
+    "id": 70,
+    "category": "Fundamentals of Generative AI",
+    "question": "An autonomous robotics team wants their warehouse machine to learn the most efficient path for sorting inventory packages. They want the system to learn completely through trial and error, earning rewards for correct placements and penalties for drops. What ML approach is this?",
+    "options": ["Supervised learning", "Unsupervised learning", "Reinforcement learning", "Prompt tuning"],
+    "correct": "Reinforcement learning",
+    "explanation": "Reinforcement learning allows an AI agent to learn optimal behaviours through repeated trial and error interactions with its environment, maximising structural rewards and minimising penalties."
+  },
+  {
+    "id": 71,
+    "category": "Fundamentals of Generative AI",
+    "question": "A data engineer is working on the early stages of the traditional Machine Learning lifecycle. They are currently focusing on collecting, cleaning, and transforming raw, messy datasets into a standardized, usable format. What phase are they in?",
+    "options": ["Model training", "Data ingestion and preparation", "Model deployment", "Model management"],
+    "correct": "Data ingestion and preparation",
+    "explanation": "Data ingestion and preparation represents the crucial starting phases of the ML lifecycle, where raw information is collected, cleaned, and transformed for model ingestion."
+  },
+  {
+    "id": 72,
+    "category": "Google Cloud's Generative AI Offerings",
+    "question": "A customer service team wants to analyse historical call logs and transcripts to automatically detect patterns, evaluate common complaints, and understand customer sentiment over time. Which specialized Google Cloud API handles this unstructured text insight task?",
+    "options": ["Document AI API", "Cloud Vision API", "Natural Language API", "Speech to Text API"],
+    "correct": "Natural Language API",
+    "explanation": "The Natural Language API is built to derive actionable insights from unstructured text, allowing enterprises to determine emotional sentiment, classify content, and extract key entities."
+  },
+  {
+    "id": 73,
+    "category": "Google Cloud's Generative AI Offerings",
+    "question": "A media monitoring agency needs a cloud system capable of automatically tracking live broadcast video streams, identifying physical landmarks or faces, and moderating inappropriate visual material. Which managed API should they leverage?",
+    "options": ["Natural Language API", "Cloud Vision API", "Translation API", "Text to Speech API"],
+    "correct": "Cloud Vision API",
+    "explanation": "The Cloud Vision API analyses image and visual content, allowing companies to detect explicit objects, read text, perform facial recognition, and handle automated content moderation."
+  },
+  {
+    "id": 74,
+    "category": "Business Strategies / Responsible AI & Privacy",
+    "question": "A financial firm wants to balance performance against operational expenses when selecting a foundation model. They realize they must balance the model's ability to generate coherent and relevant responses against which primary constraint?",
+    "options": ["Increased computational costs", "Open weights fine tuning limits", "Deterministic routing delays", "Modality restrictions"],
+    "correct": "Increased computational costs",
+    "explanation": "Organisations must actively balance a foundation model's ability to provide relevant, context rich responses against the resulting increased computational costs."
+  },
+  {
+    "id": 75,
+    "category": "Business Strategies / Responsible AI & Privacy",
+    "question": "A healthcare application utilizes an AI engine to draft medical prescriptions. Before any prescription is sent to a pharmacy, a licensed practitioner must thoroughly review, modify, and sign off on the text. What corporate governance mechanism does this process illustrate?",
+    "options": ["Zero shot grounding", "Human in the loop (HITL)", "Deterministic prompt routing", "Unsupervised quality control"],
+    "correct": "Human in the loop (HITL)",
+    "explanation": "Human in the loop (HITL) weaves human validation directly into critical ML workflows, providing essential oversight in sensitive, high risk fields like medicine or finance."
+  },
+  {
+    "id": 76,
+    "category": "Business Strategies / Responsible AI & Privacy",
+    "question": "A content platform uses an automated safety algorithm to filter out malicious text. However, they integrate a team of human reviewers to handle edge cases, evaluate contextual nuances, and handle content moderation that algorithms might misinterpret. What phase of human review does this cover?",
+    "options": ["Pre generation review", "Data ingestion labeling", "Content moderation via HITL", "Prompt tuning optimisation"],
+    "correct": "Content moderation via HITL",
+    "explanation": "Human in the loop content moderation ensures that nuanced, high risk, or complex edge case material is evaluated safely by human eyes to catch errors automated algorithms miss."
+  },
+  {
+    "id": 77,
+    "category": "Techniques to Improve Gen AI Model Output",
+    "question": "A developer wants to set up a programmatic prompting workflow. Instead of writing prompts from scratch every time, they create pre saved, parameterised instructional templates that can be dynamically populated with variable user inputs. What optimisation technique is this?",
+    "options": ["Prompt chaining", "Reusing prompts as templates", "Zero shot prompting", "Metaprompting"],
+    "correct": "Reusing prompts as templates",
+    "explanation": "Reusing prompts as templates streamlines enterprise workflows by allowing development teams to reuse structural instructions uniformly while altering individual variable parameters."
+  },
+  {
+    "id": 78,
+    "category": "Techniques to Improve Gen AI Model Output",
+    "question": "A marketing team using Gemini wants to deploy a specialized, highly customised assistant that is permanently locked into a specific brand persona, uses pre configured style guidelines, and acts as a dedicated writing buddy without needing prompt re entry. What personalised Gemini tool should they configure?",
+    "options": ["Vertex AI Feature Store", "Gems", "Gemma open models", "BigQuery Studio"],
+    "correct": "Gems",
+    "explanation": "Gems are personalised AI assistants within Gemini that allow users to store specific operational instructions, styles, and personas to automate repeated, structured workflows."
+  },
+  {
+    "id": 79,
+    "category": "Business Strategies / Responsible AI & Privacy",
+    "question": "An enterprise architecture team wants to manage the entire lifecycle of their machine learning workflows. They need an operational process to systematically keep track of different distinct versions of their deployed models over time. Which capability are they utilizing?",
+    "options": ["Versioning", "Drift monitoring", "Feature extraction", "Data ingestion"],
+    "correct": "Versioning",
+    "explanation": "Google Cloud's model management framework defines Versioning as the specific lifecycle process used to keep track of different versions of a model systematically over time."
+  },
+  {
+    "id": 80,
+    "category": "Business Strategies / Responsible AI & Privacy",
+    "question": "A banking compliance officer wants to implement a lifecycle control to ensure that their deployed generative model's accuracy does not drop, change, or decay over months of active exposure to shifting production data. What capability do they need?",
+    "options": ["Drift monitoring", "Versioning", "Data preparation", "Model training"],
+    "correct": "Drift monitoring",
+    "explanation": "Drift monitoring is the lifecycle capability used within model management to watch for changes in a model's operational accuracy over time."
+  }
+]
